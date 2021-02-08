@@ -12,6 +12,7 @@ Docker<br>
 docker run -dp 9999:9999 --name PromoProductAPI peuek/promo:latest<br>
 docker run -dp 27017:27017 --name SimpleRestAPI mongo:latest<br>
 php composer.phar install<br>
+create 'Proxies" folder it doesn't create automatically.
 
 # Input data
 Body of the test input for Rest client:<br>
