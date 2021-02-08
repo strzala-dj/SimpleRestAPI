@@ -1,6 +1,5 @@
 <?php
 
-//namespace SimpleRestAPI;
 
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 

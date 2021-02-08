@@ -1,8 +1,5 @@
 <?php
 
-//use Psr\Http\Message\ResponseInterface as Response;
-
-use Doctrine\Common\Collections\Collection;
 use Slim\Psr7\Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
@@ -14,7 +11,7 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Configuration;
 use Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver;
 
-//use SimpleRestAPI;
+
 include 'Product.php';
 
 include 'bootstrap.php';
@@ -22,7 +19,11 @@ include 'bootstrap.php';
 require __DIR__ . '/vendor/autoload.php';
 
 
-$access_data = include('params.php'); // in root folder for this project only
+$access_data = include 'params.php'; // in root folder for this project only
+
+
+
+
 
 
 /**

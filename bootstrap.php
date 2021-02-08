@@ -31,4 +31,4 @@ $config->setMetadataDriverImpl(AnnotationDriver::create(__DIR__ . '/Products'));
 $client = new Client('mongodb://localhost', [], ['typeMap' => DocumentManager::CLIENT_TYPEMAP]);
 $dm = DocumentManager::create($client, $config);
 
-spl_autoload_register($config->getProxyManagerConfiguration()->getProxyAutoloader()); /// ??????? usunąć?
+spl_autoload_register($config->getProxyManagerConfiguration()->getProxyAutoloader());
