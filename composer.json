@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.4",
+        "doctrine/mongodb-odm": "^2.2",
+        "slim/slim": "^4.7",
+        "slim/psr7": "^1.3"
+    }
+}
